@@ -2,11 +2,11 @@
 
 int main()
 {
-	char str[100], rev[200];
+	char str[100], rev[100];
 	int i,j, len =0;
 	
 	printf("enter any string\n");
-	scanf("%S",str);
+	scanf("%s",str);
 	
 	for(i=0; str[i]!='\0' ;i++){
 		len++;
@@ -42,6 +42,7 @@ int main()
 	
 	return 0;
 }
+
 
 
 
